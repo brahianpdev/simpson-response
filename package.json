@@ -1,0 +1,25 @@
+{
+  "name": "simpson-response",
+  "version": "1.0.0",
+  "description": "Custom http error responses made with The Simpsons.",
+  "main": "build/index.js",
+  "scripts": {
+    "build": "rimraf ./build && tsc",
+    "dev": "nodemon",
+    "start": "npm run build && node build/index.js"
+  },
+  "keywords": [],
+  "author": "Brahian Pereyra (https://github.com/brahianpdev)",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "ts-node": "^10.9.1"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.14",
+    "@types/node": "17.0.45",
+    "nodemon": "^2.0.20",
+    "rimraf": "^3.0.0",
+    "typescript": "^4.6.2"
+  }
+}
