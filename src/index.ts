@@ -1,5 +1,5 @@
 import express, { Request, Response } from 'express';
-import { SimpsonResponse } from './messages/http.message';
+import { SimpsonResponse } from './messages/simpson-response.message';
 
 const app = express();
 const port = 3000;

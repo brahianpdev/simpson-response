@@ -1,4 +1,4 @@
-import { ISimpsonResponse } from '../interfaces/http-message.interface';
+import { ISimpsonResponse } from '../interfaces/simpson-response.interface';
 
 export const SimpsonResponse: ISimpsonResponse = {
 	OK: {
