@@ -9,12 +9,12 @@ Custom HTTP responses with The Simpsons with the intention of expanding to all e
 ## Installation
 
 ```bash
-  npm i simpsons-status
+  npm i simpson-response
 ```
 
 If you are working with typescript:
 ```
-npm i --save-dev @types/simpsons-status
+npm i --save-dev @types/simpson-response
 ```
 
 ## Usage/Examples
