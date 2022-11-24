@@ -24,7 +24,7 @@ npm i --save-dev @types/simpsons-status
 import SimpsonResponse from 'simpson-response'
 
 app.get('/', (req: Request, res: Response) => {
-	res.send(SimpsonResponse.UNAUTHORIZED);
+	res.send(SimpsonResponse.default.UNAUTHORIZED);
 });
 
 // Example
