@@ -5,6 +5,7 @@
 
 Custom HTTP responses with The Simpsons with the intention of expanding to all existing HTTP code. If you are interested in collaborating, please review the corresponding section.
 
+Verify that you have the version of node: **v18.12.0**
 
 ## Installation
 
